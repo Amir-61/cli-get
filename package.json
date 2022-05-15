@@ -1,7 +1,7 @@
 {
   "name": "@amir-cli/cli-get",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get plugin for cli",
   "main": "Get.js",
   "scripts": {
