@@ -9,5 +9,11 @@ This is the GET plugin for [CLI project](https://github.com/Amir-61/cli).
  - ### `GET propertyName`:
     will print out the current value of the target object’s member named “propertyname".
 
+
+# Connector structore:
+- `test` Folder: Each usage is unit tested using mocha
+- `get.js` file: It's like Data Access Object (DAO) of the connector where it exposes the newly implemented commands
+- `getHandler.js` file: It's the handler for each exposed usages
+
 # Unit tests:
 - This connector comes with it's own unit tests written in [mocha](https://mochajs.org/), you can run unit tests for each module sperataly using `npm test` command.
