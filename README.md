@@ -3,6 +3,9 @@ This is the GET plugin for [CLI project](https://github.com/Amir-61/cli).
 
 - **NPM:** [@amir-cli/cli-get](https://www.npmjs.com/package/@amir-cli/cli-get), **GITHUB:** [cli-get](https://github.com/Amir-61/cli-get)
 
+![image](https://user-images.githubusercontent.com/10672146/168502057-f6c5c630-cb30-4825-b578-989620c9a417.png)
+
+
 # Usages:
  - #### `GET *` :
     will print out a list of all target object members and their current values.
