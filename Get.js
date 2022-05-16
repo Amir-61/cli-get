@@ -7,7 +7,7 @@ const GET = () => {
     .command("GET")
     .argument("<field>", "{field}/*")
     .description(
-      "get all properties using * or a {field}."
+      "get all properties using * or a {fieldName}."
     )
     .action(get))
 }

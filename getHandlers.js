@@ -12,7 +12,7 @@ const get = (field) => {
   let parsedData = JSON.parse(data)
   if (field === 'commands' || field === '*') {
     console.log(parsedData);
-    return parsedData
+    return parsedData // We use the return value for unit tests
   } else if(parsedData[field]){
     console.log(parsedData[field]);
     return parsedData[field]
